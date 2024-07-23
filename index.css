@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: azure;
+}
+.cards{
+    width:330px;
+    background-color: #1b6aa7;
+    color: #fff;
+   margin-left: 600px;
+   margin-top: 100px;
+    border-radius: 20px;
+    height: 13vh;
+
+}
+.search{
+    width: 100%;
+    align-items: center;
+    position: relative;
+    
+}
+.search input{
+    width: 240px;
+    padding-left: 20px;
+    height:12.5vh ;
+    border-radius: 20px;
+    outline:none;
+    border: none;
+    background-color:#c1c8c8;
+   
+}
+.sr{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: #1b6aa7;
+}
+.pic h1{
+    font-size:50px;
+    color: white;
+    margin-left: 110px;
+}
+.pic h2{
+    font-size:20px;
+    color: white;
+    margin-left: 115px;
+    position: fixed;
+}
+.pic img{
+    width: 150px;
+    height: 150px;
+    margin-left: 80px;
+}
+
+
+.humdity img{
+    width: 20px;
+    height: 30px;
+    object-fit: contain;
+    /* background-color: red; */
+    margin-left: 5px;
+}
+
+.wind img{
+  /* background-color: brown; */
+    width: 20px;
+    height: 30px;
+    object-fit: contain;
+    margin-left: 15px;
+}
+
+
+.details{
+  display: flex;
+    justify-content: space-between;
+}
+
+
+.type{   
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 0, 0);
+    display: none;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.storm{
+   
+    flex-direction: column;
+    display: flex;
+}
+.storm{
+    display: none;
+    margin-top: 30px;
+}
+
+.cir{
+    background-color:#c1c8c8;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    position: absolute;
+    top: 25px;
+    left: 270px;
+}
+
+.icon{
+    margin-top: 7px;
+    margin-left: 8px;
+}
+.humdity{
+    margin-left: 30px;
+    margin-top: 10px;
+    position: fixed;
+}
+.wind{
+    margin-left: 240px;
+    margin-top: 20px;
+    position: fixed;
+}
+.bk{
+    background-color:#1b6aa7;
+    width: 330px;
+    height: 50vh;
+    position: absolute;
+    border-radius: 10px;
+    top: 60px;
+    z-index: -2;
+    display: none;
+    animation: slide-in 0.8s ease-in-out;
+    transition: 0s;
+
+}
+@keyframes slide-in {
+    0% {
+      transform: translateY(-20%);
+      transition: 0.2s;
+    }
+    100% {
+      transform: translateY(0);
+      transition: 0.3s;
+    }
+  }
+  .we{
+    color: #1b6aa7;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 610px;
+  }
